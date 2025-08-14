@@ -93,7 +93,7 @@ The following analyses were conducted:
 ## Hotspot Map
 
 An interactive hotspot map was created using Folium to visualize accident density across the United States.
-👉 Preview:![Hotspot Map]((https://github.com/AswathyD31/SKILLCRAFT_DS_04/blob/da2bdbc81acd6f1ee7b188bb1966004dad09767b/Accident%20Hotspots%20by%20Country.JPG))
+👉 Preview:![Hotspot Map]([https://github.com/AswathyD31/SKILLCRAFT_DS_04/blob/da2bdbc81acd6f1ee7b188bb1966004dad09767b/Accident%20Hotspots%20by%20Country.JPG])
 
 ## Visualizations
  __________
