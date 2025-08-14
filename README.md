@@ -1,27 +1,29 @@
-Data Science Internship at SkillCraft Technology
-Task 4 – Exploratory Data Analysis on Road Accident Dataset
-Overview
+# **Data Science Internship at Prodigy Infotech**
+
+## **Task 4 Submission:**
+-----
 
 This project is part of Task 4 of my Data Science Internship at SkillCraft Technology.
 The objective was to perform data cleaning, preprocessing, and exploratory data analysis (EDA) on a global road accident dataset to uncover trends, identify major contributing factors, and generate actionable recommendations for improving road safety.
 
-Dataset Description
+## Dataset Description
+____________
 
 The dataset contains detailed records of road accidents with the following key columns:
 
-Accident_Severity – Categorized as Minor, Moderate, or Severe.
+* Accident_Severity – Categorized as Minor, Moderate, or Severe.
 
-Weather_Condition – Conditions during the accident (Clear, Rain, Fog, Snow, etc.).
+* Weather_Condition – Conditions during the accident (Clear, Rain, Fog, Snow, etc.).
 
-Road_Condition – Dry, Wet, Icy, or Other.
+* Road_Condition – Dry, Wet, Icy, or Other.
 
-Light_Condition – Daylight, Night with lighting, Night without lighting.
+* Light_Condition – Daylight, Night with lighting, Night without lighting.
 
-Alcohol_Level – Driver alcohol concentration category.
+* Alcohol_Level – Driver alcohol concentration category.
 
-Fatigue_Involvement – Whether driver fatigue was involved.
+* Fatigue_Involvement – Whether driver fatigue was involved.
 
-Traffic_Volume – Number of vehicles on the road during the incident.
+* Traffic_Volume – Number of vehicles on the road during the incident.
 
 Cause – Primary cause (e.g., Drunk Driving, Speeding, Distracted Driving).
 
