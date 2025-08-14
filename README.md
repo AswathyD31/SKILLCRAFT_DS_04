@@ -11,117 +11,127 @@ ____________
 
 The dataset contains detailed records of road accidents with the following key columns:
 
-* Accident_Severity – Categorized as Minor, Moderate, or Severe.
+* **Accident_Severity** – Categorized as Minor, Moderate, or Severe.
 
-* Weather_Condition – Conditions during the accident (Clear, Rain, Fog, Snow, etc.).
+* **Weather_Condition** – Conditions during the accident (Clear, Rain, Fog, Snow, etc.).
 
-* Road_Condition – Dry, Wet, Icy, or Other.
+* **Road_Condition** – Dry, Wet, Icy, or Other.
 
-* Light_Condition – Daylight, Night with lighting, Night without lighting.
+* **Light_Condition** – Daylight, Night with lighting, Night without lighting.
 
-* Alcohol_Level – Driver alcohol concentration category.
+* **Alcohol_Level** – Driver alcohol concentration category.
 
-* Fatigue_Involvement – Whether driver fatigue was involved.
+* **Fatigue_Involvement** – Whether driver fatigue was involved.
 
-* Traffic_Volume – Number of vehicles on the road during the incident.
+* **Traffic_Volume** – Number of vehicles on the road during the incident.
 
-Cause – Primary cause (e.g., Drunk Driving, Speeding, Distracted Driving).
+* **Cause** – Primary cause (e.g., Drunk Driving, Speeding, Distracted Driving).
 
-Location – Region and country where the accident occurred.
+* **Location** – Region and country where the accident occurred.
 
-Vehicles_Involved – Number of vehicles in the accident.
+* **Vehicles_Involved** – Number of vehicles in the accident.
 
-Injuries / Fatalities – Casualties in the accident.
+* **Injuries / Fatalities** – Casualties in the accident.
 
-Economic_Loss – Estimated financial damage.
+* **Economic_Loss** – Estimated financial damage.
 
-Response_Time – Emergency service arrival time.
+* **Response_Time** – Emergency service arrival time.
 
-Tools & Libraries Used
+## Tools and Libraries Used
+__________________
 
-Pandas – Data cleaning & manipulation
+* **Pandas** – Data cleaning & manipulation
 
-NumPy – Numerical computations
+* **NumPy** – Numerical computations
 
-Matplotlib – Visualization
+* **Matplotlib** – Visualization
 
-Seaborn – Statistical plots
+* **Seaborn** – Statistical plots
 
-Plotly – Interactive visualizations
+* **Plotly** – Interactive visualizations
 
-Jupyter Notebook – Interactive analysis
+* **Jupyter Notebook** – Interactive analysis
 
-Data Cleaning Process
+## **Data Cleaning Process**
+-------
 
-Handled Missing Values – Checked and addressed missing entries.
+* **Handled Missing Values** – Checked and addressed missing entries.
 
-Removed Duplicates – Eliminated repeated accident records.
+* **Removed Duplicates** – Eliminated repeated accident records.
 
-Outlier Treatment – Applied IQR method for capping extreme values in numerical columns.
+* **Outlier Treatment** – Applied IQR method for capping extreme values in numerical columns.
 
-Encoding –
+### **Encoding** –
 
-Binary encoding for Yes/No features (Fatigue_Involvement)
+* **Binary encoding** for Yes/No features (Fatigue_Involvement)
 
-One-hot encoding for categorical variables (Weather_Condition, Accident_Severity, etc.)
+* **One-hot encoding** for categorical variables (Weather_Condition, Accident_Severity, etc.)
 
-Feature Formatting – Ensured correct data types for numerical columns like Economic_Loss, Traffic_Volume, and Response_Time.
+* **Feature Formatting** – Ensured correct data types for numerical columns like Economic_Loss, Traffic_Volume, and Response_Time.
 
-Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis
+____________
 
 The following analyses were conducted:
 
-Accident severity distribution across different weather and road conditions.
+* Accident severity distribution across different weather and road conditions.
 
-Impact of alcohol level on accident severity.
+* Impact of alcohol level on accident severity.
 
-Role of driver fatigue in accident frequency.
+* Role of driver fatigue in accident frequency.
 
-Traffic volume influence on accident occurrence.
+* Traffic volume influence on accident occurrence.
 
-Leading causes of accidents by count.
+* Leading causes of accidents by count.
 
-Geographical analysis – accident hotspots by region and country.
+* Geographical analysis – accident hotspots by region and country.
 
-Injuries vs. economic loss patterns by accident severity.
+* Injuries vs. economic loss patterns by accident severity.
 
-Emergency response time trends by accident severity.
+* Emergency response time trends by accident severity.
 
-Visualizations created include:
+## Hotspot Map
 
-Bar charts for accident causes.
+An interactive hotspot map was created using Folium to visualize accident density across the United States.
+👉 Preview:![Hotspot Map]((https://github.com/AswathyD31/SKILLCRAFT_DS_04/blob/da2bdbc81acd6f1ee7b188bb1966004dad09767b/Accident%20Hotspots%20by%20Country.JPG))
 
-Count plots for weather and road condition comparisons.
+## Visualizations
+ __________
 
-Heatmaps for feature correlations.
+* Bar charts for accident causes.
 
-Scatter plots for injuries vs. economic loss.
+* Count plots for weather and road condition comparisons.
 
-Geographic charts for top accident hotspots.
+* Heatmaps for feature correlations.
 
-Boxplots for response time distribution by severity.
+* Scatter plots for injuries vs. economic loss.
 
-Key Insights
+* Geographic charts for top accident hotspots.
 
-Alcohol Level – Even moderate alcohol levels are linked to both minor and severe accidents.
+* Boxplots for response time distribution by severity.
 
-Fatigue – A major contributor, with accident counts reaching up to 60,000 in fatigue-related cases.
+## Key Insights
+___________
 
-Traffic Volume – Higher traffic volumes strongly correlate with increased accident frequency.
+* Alcohol Level – Even moderate alcohol levels are linked to both minor and severe accidents.
 
-Cause Analysis – Drunk and distracted driving lead accident causes, exceeding weather or mechanical failures.
+* Fatigue – A major contributor, with accident counts reaching up to 60,000 in fatigue-related cases.
 
-Geography – Accident rates are evenly distributed globally at a continental level, but country-level hotspots exist.
+* Traffic Volume – Higher traffic volumes strongly correlate with increased accident frequency.
 
-Economic Impact – Severe accidents cause disproportionately higher economic losses.
+* Cause Analysis – Drunk and distracted driving lead accident causes, exceeding weather or mechanical failures.
 
-Response Time – Not always correlated with accident severity, indicating possible inefficiencies in emergency services.
+* Geography – Accident rates are evenly distributed globally at a continental level, but country-level hotspots exist.
 
-Conclusion
+* Economic Impact – Severe accidents cause disproportionately higher economic losses.
+
+* Response Time – Not always correlated with accident severity, indicating possible inefficiencies in emergency services.
+
+## **Conclusion**
 
 This analysis highlights human behavior factors (alcohol, fatigue, distraction) as the dominant causes of accidents over environmental conditions.
 Findings can help policymakers, traffic authorities, and emergency services prioritize prevention strategies and optimize resource allocation for better road safety outcomes.
 
-🙏 Acknowledgement
+🙏 **Acknowledgement**
 
 Thank you for reviewing my submission for Task 4 of the SkillCraft Technology Data Science Internship.
